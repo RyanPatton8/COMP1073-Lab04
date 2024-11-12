@@ -25,6 +25,26 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : "Frozen Butter",
+      "calories" : 3500,
+      "type" : "ICE",
+      "ingredients" : [
+        "BUTTER"
+      ],
+      "image" : "butter.webp"
+    },
+    {
+      "name" : "Soul of The Innocent",
+      "calories" : 0,
+      "type" : "Pure",
+      "ingredients" : [
+        "Joy",
+        "Love",
+        "Pain"
+      ],
+      "image" : "soul.webp"
     }
   ]
 }
