@@ -7,7 +7,7 @@ async function populate(){
     // Introducing JavaScript Object Notation (JSON): https://json.org/
     // STEP 4: Store the URL of a JSON file in a variable */
     //const requestURL = "https://ryanpatton8.github.io/COMP1073-Lesson/week_10/js/i-scream.json";
-    const requestURL = "https://lamp.computerstudi.es/~Ryan200463597/JavaScript/week_10/js/i-scream.json";
+    const requestURL = "https://ifedii.github.io/lesson-10/js/i-scream.json";
     //const requestURL = "./js/i-scream.json";
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(requestURL);
@@ -46,12 +46,12 @@ function showTopFlavors(json) {
         let h2 = document.createElement("h2")
         let image = document.createElement("img");
         let ul = document.createElement("ul");
-
+        
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         
         h2.textContent = topFlavors[i]["name"];
         //image.setAttribute("src", `https://ryanpatton8.github.io/COMP1073-Lesson/week_10/images/${topFlavors[i]["image"]}`);
-        image.setAttribute("src", `https://lamp.computerstudi.es/~Ryan200463597/JavaScript/week_10/images/${topFlavors[i]["image"]}`);
+        image.setAttribute("src", `https://ifedii.github.io/lesson-10/images/${topFlavors[i]["image"]}`);
         //image.setAttribute("src", `./images/${topFlavors[i]["image"]}`);
 
         // STEP 10g: Build a loop for the ingredients array in the JSON
